@@ -1,0 +1,69 @@
+/*
+Theme Name: QuickM
+Theme URI: http://quickm.woodoo-style.com
+Description: QuickM Theme
+Version: 1.0
+Author: Woo_Doo
+*/
+
+body {background-color: #D6D6D6;}
+/* To top arrow link */
+#toTop {background:url(../images/style2/ui.totop.png) no-repeat left top;}
+#toTopHover {background:url(../images/style2/ui.totop.png) no-repeat left -51px;}
+/* Accordion */
+.basic a.acc {
+	background-color:#E3E2E2 !important;
+	border-bottom:none !important;
+}
+.basic a.acc:hover {background-color:#EEE !important;}
+
+
+
+/* Top menu */
+ul.menu-top li {border-left:1px solid #212121;}
+ul.menu-top li a {color:#212121;}
+ul.menu-top li a:hover {color: #000;}
+/* Newsletter input */
+#subscribeForm #name, #subscribeForm #email {
+	background-color:#C1C1C1;
+    border:#AAA9A9 1px solid;
+	color:#656565;
+}
+/* FOOTER */
+#footer {color:#444;}
+/* Footer heading */
+#footer h2.title {color:#444;}
+/* Footer menu */
+#footer ul.menu-nav li {border-bottom:1px solid #CCC;}
+#footer ul.menu-nav li a {color:#888;}
+#footer ul.menu-nav li a:hover {color:#fff;}
+/* Hover color for footer menu */
+#footer ul.menu-nav li a strong {
+	opacity:0;
+	background:#888;
+	display:block;
+	position:absolute;
+	height:100%;
+	width:100%;
+	left:0;
+	top:0;
+}
+/* Footer tabs */
+#slideshow .slides-nav li a, #slideshow .slides-nav li {
+	color:#888;
+}
+#slideshow .slides-nav li {
+	border-right:1px solid #888;
+}
+.js #slideshow .slides-nav li:hover a,
+.js #slideshow .slides-nav li:hover,
+.js #slideshow .slides-nav li.on,
+.js #slideshow .slides-nav li.on a {
+	color:#FFF;
+	background:#888;
+}
+/* Copyright line */
+#copyright {color:#444;}
+.copy {color:#444;}
+
+

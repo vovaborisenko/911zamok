@@ -1,0 +1,19 @@
+/**
+ * @package   Gantry Template - RocketTheme                                                    *|
+ * @version   3.1.4 November 12, 2010                                                          *|
+ * @author    RocketTheme http://www.rockettheme.com                                           *|
+ * @copyright Copyright (C) 2007 - 2010 RocketTheme, LLC                                       *|
+ * @license   http://www.rockettheme.com/legal/license.php RocketTheme Proprietary Use License *|
+ */
+/* Menu */
+.menutop ul li:hover, .menutop li.f-menuparent-itemfocus, .menutop .fusion-grouped ol li:hover, .menutop .fusion-grouped ol li.f-menuparent-itemfocus {zoom: 1;}
+.menutop .fusion-submenu-wrapper {zoom: 1;}
+.fusion-grouped ol li .item {zoom: 1;}
+.menutop ul li, .fusion-grouped ol {zoom: 1;}
+.menutop ul li:hover, .menutop li.f-menuparent-itemfocus, .menutop .fusion-grouped ol li:hover, .menutop .fusion-grouped ol li.f-menuparent-itemfocus {zoom: 1;}
+.menutop ul li > .daddy span {zoom: 1;}
+.fusion-submenu-wrapper .columns2 .item:hover {zoom: 1;}
+.menutop li.root > .item em {line-height: 6px !important;}
+body #main {height: 100%;}
+div.searchsearch-r { width: 160px !important;}
+div.searchsearch-r input#searchword {width:110px;float:left;}

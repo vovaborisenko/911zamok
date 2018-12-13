@@ -1,0 +1,49 @@
+#page-wrap							{ width: 800px; margin: 25px auto; }
+ul									{ list-style: none; }
+
+/*
+	LEVEL ONE
+*/
+ul.dropdown                         { position: relative; }
+ul.dropdown li                      { float: left; zoom: 1; }
+ul.dropdown li a                    { display: block;}
+ul.dropdown li.hover,
+ul.dropdown li:hover                { color: black; position: relative; }
+/*
+	LEVEL TWO
+*/
+ul.dropdown ul 						{ visibility: hidden; position: absolute; top: 100%; left: 0; }
+ul.dropdown ul li 					{ float: none; }
+                                    /* IE 6 & 7 Needs Inline Block */
+ul.dropdown ul li a					{ width: 100%; display: inline-block; }
+/*
+	LEVEL THREE
+*/
+ul.dropdown ul ul 					{ left: 100%; top: 0; }
+ul.dropdown li:hover > ul 			{ visibility: visible; }
+.dropdown {
+-moz-background-clip:border;
+-moz-background-inline-policy:continuous;
+-moz-background-origin:padding;
+-moz-border-radius-bottomleft:10px;
+-moz-border-radius-bottomright:10px;
+-moz-border-radius-topleft:10px;
+-moz-border-radius-topright:10px;
+-moz-box-shadow:0 4px 6px #888888;
+background:transparent url(../images/menu_bg.gif) repeat-x scroll 0 0;
+float:left;
+height:44px;
+margin:0 0 0 10px;
+position:relative;
+width:940px;
+}
+.dropdown {
+line-height:1;
+}
+.dropdown, .dropdown * {
+list-style-image:none;
+list-style-position:outside;
+list-style-type:none;
+margin:0;
+padding:0;
+}
