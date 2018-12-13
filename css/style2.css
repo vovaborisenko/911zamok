@@ -65,5 +65,8 @@ ul.menu-top li a:hover {color: #000;}
 /* Copyright line */
 #copyright {color:#444;}
 .copy {color:#444;}
-
-
+/* Map */
+.contactMap iframe {
+	width: 100%;
+	height: 400px;
+}

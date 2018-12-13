@@ -167,9 +167,9 @@
                         child = child.find('img:first');
                     }
                     if (settings.controlNavThumbsFromRel) {
-                        nivoControl.append('<a class="nivo-control" rel="'+ i +'"><img src="'+ child.attr('rel') + '" alt="" /></a>');
+                        nivoControl.append('<a class="nivo-control" rel="'+ i +'"><img src="'+ child.attr('rel') + '" alt="Замена замков" /></a>');
                     } else {
-                        nivoControl.append('<a class="nivo-control" rel="'+ i +'"><img src="'+ child.attr('src').replace(settings.controlNavThumbsSearch, settings.controlNavThumbsReplace) +'" alt="" /></a>');
+                        nivoControl.append('<a class="nivo-control" rel="'+ i +'"><img src="'+ child.attr('src').replace(settings.controlNavThumbsSearch, settings.controlNavThumbsReplace) +'" alt="Замена замков" /></a>');
                     }
                 } else {
                     nivoControl.append('<a class="nivo-control" rel="'+ i +'">'+ (i + 1) +'</a>');
